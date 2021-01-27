@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.products {
+    position: relative;
+}
+
+.nav_iconfont {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.nav_iconfont span:last-child {
+    display: block;
+    width: 60px;
+    height: 25px;
+    margin-left: 166px;
+    margin-top: -25px;
+}
+
+.nav_navigation {
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.nav_navigation li {
+    float: left;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.nav_navigation li a {
+    color: #fff;
+}
+
+.nav_navigation li:nth-child(3) a {
+    font-weight: 500;
+    padding-bottom: 3px;
+    color: rgb(48, 101, 199);
+    border-bottom: 3px solid rgb(48, 101, 199);
+}
+
+.nav_navigation li:last-child {
+    border-left: 2px solid #fff;
+    padding-left: 20px;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(199, 199, 199, 0.9);
+}
+
+.box {
+    width: 1519px;
+    height: 750px;
+    background-color: rgb(240, 240, 240);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 1;
+}
+
+.box.active {
+    z-index: 99;
+}
+
+.products .box:first-child {
+    background-image: url(../imges/ia_100000000507.png);
+}
+
+.products .box:nth-child(2) {
+    background-image: url(../imges/ia_100000000508.jpg);
+}
+
+.products .box:nth-child(3) {
+    background-image: url(../imges/ia_100000000518.jpg);
+}
+
+.products .box:nth-child(4) {
+    background-image: url(../imges/ia_100000000509.jpg);
+}
+
+.products .box:nth-child(5) {
+    background-image: url(../imges/ia_100000000510.jpg);
+}
+
+.products .box:nth-child(6) {
+    background-image: url(../imges/ia_100000000511.jpg);
+}
+
+.products .box:nth-child(7) {
+    background-image: url(../imges/ia_100000000512.png);
+}
+
+.products .box:nth-child(8) {
+    background-image: url(../imges/ia_100000000513.jpg);
+}
+
+.products .box:nth-child(9) {
+    background-image: url(../imges/ia_100000000514.jpeg);
+}
+
+.products .box:nth-child(10) {
+    background-image: url(../imges/ia_100000000515.jpeg);
+}
+
+.products .box:nth-child(11) {
+    background-image: url(../imges/ia_100000000516.jpg);
+}
+
+.box_img {
+    width: 80px;
+    height: 80px;
+    margin-left: 140px;
+    padding-top: 200px;
+}
+
+.box h1 {
+    padding-top: 40px;
+    margin-left: 140px;
+}
+
+.box p {
+    width: 280px;
+    margin-left: 140px;
+    padding-top: 25px;
+    font-size: 14px;
+}
+
+.point {
+    position: relative;
+}
+
+.item {
+    position: absolute;
+    z-index: 100;
+    right: 155px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+}
+
+.item.active {
+    width: 60px;
+    height: 60px;
+}
